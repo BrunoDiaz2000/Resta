@@ -9,9 +9,11 @@ class MainResta {
       int Y = op.nextInt();
 
       Resta primera = new Resta();
-      primera.x = X;
-      primera.y = Y;
+      primera.setX(X);
+      primera.setY(Y);
       
-      primera.mostrarResta();
+      System.out.println("\nEl resultado es: "+primera.mostrarResta());
+
+      System.out.println(primera);
    }
 }
